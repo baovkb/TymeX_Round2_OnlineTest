@@ -45,12 +45,12 @@ src/
 <h2> Features </h2>
 
 - Fetches live exchange rates using the Free Currency API.
-- Allows input of an amount in the "From" field and displays the - converted amount in the "To" field.
+- Allows input of an amount in the "From" field and displays the converted amount in the "To" field.
 - Enables selection of currencies for both "From" and "To" fields through dropdown menus.
 - Displays the exchange rate ratio between two currencies.
 - Supports a customized numeric keyboard with a user-friendly interface.
 
-<h2> Installation and Setup <h2>
+<h2> Installation and Setup </h2>
 <h3> Prerequisites </h3>
 
 - Android Studio (recommended version: Koala)
@@ -58,12 +58,12 @@ src/
 
 <h3> Steps </h3>
 
-- Clone this project ```git clone ```
+- Clone this project ```git clone https://github.com/baovkb/TymeX_Round2_OnlineTest.git ```
 - Open (or create) ```local.properties``` file and set your API key using the ```api_key``` property. Example: ```api_key=abc123```
 - Build and run on an emulator or a physical device
 
 <h2> Demo </h2>
 
-![Demo](demo.png)
-
 For more details, watch the demonstration in this [video](https://youtu.be/VAg_DNEx7uI)
+
+![Demo](demo.png)
