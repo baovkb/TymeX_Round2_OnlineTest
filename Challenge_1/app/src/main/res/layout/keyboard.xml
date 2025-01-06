@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:gravity="center">
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/key_7"
+        app:text="7"
+        app:textSize="24sp" />
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/key_8"
+        app:text="8"
+        android:layout_gravity="center_horizontal"
+        app:textSize="24sp" />
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/key_9"
+        app:text="9"
+        app:textSize="24sp" />
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/key_4"
+        app:text="4"
+        android:layout_marginTop="18dp"
+        app:textSize="24sp" />
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/key_5"
+        app:text="5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        app:textSize="24sp" />
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/key_6"
+        app:text="6"
+        android:layout_marginTop="18dp"
+        app:textSize="24sp" />
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/key_1"
+        app:text="1"
+        android:layout_marginTop="18dp"
+        app:textSize="24sp" />
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/key_2"
+        app:text="2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        app:textSize="24sp" />
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/key_3"
+        app:text="3"
+        android:layout_marginTop="18dp"
+        app:textSize="24sp" />
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/key_0"
+        app:text="0"
+        android:layout_marginTop="18dp"
+        app:textSize="24sp" />
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/delete_all"
+        app:text="AC"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        app:textSize="24sp" />
+
+    <com.vkbao.currencyconverter.ui.custom_views.CircularKey
+        android:id="@+id/delete"
+        app:text="X"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        app:textSize="24sp" />
+</GridLayout>

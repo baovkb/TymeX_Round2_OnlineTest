@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:background="@drawable/currency_bg">
+
+    <Spinner
+        android:layout_marginStart="8dp"
+        android:id="@+id/spinner"
+        android:paddingVertical="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:popupBackground="@drawable/currency_bg"
+        android:background="@drawable/spinner_bg"
+        android:spinnerMode="dropdown"
+        android:dropDownVerticalOffset="96dp"
+        android:paddingEnd="36dp"
+        tools:listitem="@layout/currency_item_spinner"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="8dp"
+        android:background="@color/light_black" />
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:textAlignment="textEnd"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="16dp"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="Y"
+        android:textAlignment="textEnd"
+        android:textColor="@color/light_black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

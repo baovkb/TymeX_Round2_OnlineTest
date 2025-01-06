@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="rate_tv">Rate</string>
+    <string name="error_title">Error</string>
+    <string name="ok_tv">OK</string>
+    <string name="network_error">Please check your internet connection</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_marginTop="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/state_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/loading_bg"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="12dp"
+        android:visibility="visible"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/state_indicator_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error"
+            android:textColor="@color/description_color"/>
+        <ImageView
+            android:id="@+id/state_indicator_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/error"
+            app:tint="@color/description_color"
+            android:layout_marginStart="8dp" />
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progressBar"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/white"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/description_color" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/reload_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/loading_bg"
+        android:paddingVertical="8dp"
+        android:layout_marginStart="8dp"
+        android:paddingHorizontal="12dp"
+        android:visibility="visible"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/description_color"
+            android:text="Reload" />
+        <ImageView
+            android:id="@+id/reload_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/reload"
+            app:tint="@color/description_color"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>
