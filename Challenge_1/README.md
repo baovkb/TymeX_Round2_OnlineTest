@@ -26,7 +26,7 @@ src/
 │   │       └── App.kt               
 │   ├── res/                         
 │   ├── AndroidManifest.xml          
-│   └── build.gradle                
+│   └── build.gradle     
 
 ```
 - ```data```: Handle all data-related components
@@ -41,6 +41,16 @@ src/
     - ```view models```: Manages and processes data from the repository
     - ```dialogs```: Contains dialogs for notification such as Error, Success
 - ```core ```: Utility classes and helper functions
+
+<h2> Tech stack </h2>
+
+- Language: Kotlin
+- Architecture: MVVM
+- Libraries:
+    - Retrofit
+    - Dagger/Hilt
+    - Flow, Coroutines
+    - LiveData, ViewModel
 
 <h2> Features </h2>
 
